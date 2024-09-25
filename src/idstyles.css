@@ -1,0 +1,143 @@
+.id-card-container {
+    width: 420px; /* Fixed width for consistent card size */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #d1d1d1;
+    position: relative;
+    display: flex;
+    flex-direction: row; /* Added to allow the blue strip on the left */
+}
+
+.left-shade {
+    width: 50px;
+    background-color: #007bff; /* Blue shade on the left side */
+    border-radius: 8px 0 0 8px; /* Rounded corners on the left */
+}
+
+.right-content {
+    padding-left: 10px; /* Adds spacing between the blue strip and the content */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.id-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.college-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+}
+
+.college-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.college-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #d30b0b;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.college-subtitle {
+    font-size: 10px;
+    color: #000;
+    margin: 0;
+}
+
+.student-identity {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    padding: 3px 0;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.id-card-body {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.photo-container {
+    width: 70px;
+    height: 90px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.info-container p {
+    margin: 2px 0; /* Reduced margin for tighter content layout */
+}
+
+.info-container p strong {
+    color: #000;
+    font-weight: bold;
+}
+
+.id-card-footer {
+    position: relative;
+    bottom: 5px;
+    right: 0;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.signature {
+    font-size: 10px;
+    color: #000;
+    text-align: right;
+}
+
+.principal-sign {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+    margin: 0;
+    color: #000;
+}
+
+.signature-image {
+    width: 60px; /* Size of the signature image */
+    height: auto;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+}
